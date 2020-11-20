@@ -20,10 +20,9 @@ class App extends Component {
   <Navbar />
   <Switch>
   <Route exact path="/" component={CardLists} />
-  <Route exact path="/e-commerce-app-react-live" component={CardLists} />
   <Route exact path="/cart" component={Cart}/>
   <Route exact path="/room/:slug" component={SinglePhone}/>
-  <Route exact component={CardLists} />
+  <Route exact component={ErrorPage} />
    </Switch>
    <Modal />
    </div>
