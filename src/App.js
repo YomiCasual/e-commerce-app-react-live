@@ -22,7 +22,6 @@ class App extends Component {
   <Route exact path="/" component={CardLists} />
   <Route exact path="/cart" component={Cart}/>
   <Route exact path="/room/:slug" component={SinglePhone}/>
-  {/* <Route exact component={ErrorPage} /> */}
    </Switch>
    <Modal />
    </div>
