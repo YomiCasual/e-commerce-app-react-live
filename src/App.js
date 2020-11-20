@@ -19,7 +19,7 @@ class App extends Component {
   <div className="main-container">
   <Navbar />
   <Switch>
-  <Route exact path="/" component={CardLists} />
+  <Route exact path="/e-commerece-app-react-live" component={CardLists} />
   <Route exact path="/cart" component={Cart}/>
   <Route exact path="/room/:slug" component={SinglePhone}/>
   <Route exact component={CardLists} />
